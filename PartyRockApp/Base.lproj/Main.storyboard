@@ -65,14 +65,22 @@
                                     <constraint firstAttribute="trailing" secondItem="f5c-lk-5lD" secondAttribute="trailing" constant="8" id="f03-2X-GrN"/>
                                 </constraints>
                             </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fuM-4r-TWm">
+                                <rect key="frame" x="0.0" y="211" width="375" height="456"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="lQE-Ud-NwS" secondAttribute="trailing" id="2GI-nA-QBf"/>
                             <constraint firstItem="lQE-Ud-NwS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EH1-vD-LlX"/>
+                            <constraint firstAttribute="trailing" secondItem="fuM-4r-TWm" secondAttribute="trailing" id="Oli-ol-8QT"/>
                             <constraint firstAttribute="trailing" secondItem="gCO-zb-Gbe" secondAttribute="trailing" id="RWm-PQ-pXL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fuM-4r-TWm" secondAttribute="bottom" id="UVm-m2-7ko"/>
                             <constraint firstItem="gCO-zb-Gbe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZHf-d6-hps"/>
+                            <constraint firstItem="fuM-4r-TWm" firstAttribute="top" secondItem="lQE-Ud-NwS" secondAttribute="bottom" id="clP-ud-GwI"/>
                             <constraint firstItem="gCO-zb-Gbe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ewn-3W-2pD"/>
+                            <constraint firstItem="fuM-4r-TWm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="iDQ-I2-PgZ"/>
                             <constraint firstItem="lQE-Ud-NwS" firstAttribute="top" secondItem="gCO-zb-Gbe" secondAttribute="bottom" id="kx9-YY-4DT"/>
                         </constraints>
                     </view>

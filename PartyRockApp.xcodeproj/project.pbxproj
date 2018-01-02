@@ -14,6 +14,7 @@
 		2D3DD0571FFB911E00DD57FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DD0551FFB911E00DD57FD /* LaunchScreen.storyboard */; };
 		2D3DD0621FFB911E00DD57FD /* PartyRockAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DD0611FFB911E00DD57FD /* PartyRockAppTests.swift */; };
 		2D3DD06D1FFB911E00DD57FD /* PartyRockAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DD06C1FFB911E00DD57FD /* PartyRockAppUITests.swift */; };
+		2D3DD07D1FFB9B0500DD57FD /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DD07C1FFB9B0500DD57FD /* still time.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2D3DD0681FFB911E00DD57FD /* PartyRockAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyRockAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3DD06C1FFB911E00DD57FD /* PartyRockAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyRockAppUITests.swift; sourceTree = "<group>"; };
 		2D3DD06E1FFB911E00DD57FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D3DD07C1FFB9B0500DD57FD /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,8 @@
 		2D3DD04B1FFB911E00DD57FD /* PartyRockApp */ = {
 			isa = PBXGroup;
 			children = (
+				2D3DD07F1FFB9B1900DD57FD /* Files */,
+				2D3DD07E1FFB9B1100DD57FD /* Model */,
 				2D3DD07B1FFB926E00DD57FD /* View */,
 				2D3DD07A1FFB925600DD57FD /* Controller */,
 				2D3DD04C1FFB911E00DD57FD /* AppDelegate.swift */,
@@ -139,6 +143,21 @@
 			children = (
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		2D3DD07E1FFB9B1100DD57FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2D3DD07F1FFB9B1900DD57FD /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D3DD07C1FFB9B0500DD57FD /* still time.ttf */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D3DD0571FFB911E00DD57FD /* LaunchScreen.storyboard in Resources */,
+				2D3DD07D1FFB9B0500DD57FD /* still time.ttf in Resources */,
 				2D3DD0541FFB911E00DD57FD /* Assets.xcassets in Resources */,
 				2D3DD0521FFB911E00DD57FD /* Main.storyboard in Resources */,
 			);

@@ -75,7 +75,7 @@
                                 <rect key="frame" x="0.0" y="211" width="375" height="456"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="85" id="cc8-GP-OcV">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="85" id="cc8-GP-OcV" customClass="PartyCell" customModule="PartyRockApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="85"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cc8-GP-OcV" id="23y-7D-vIj">
@@ -107,6 +107,10 @@
                                                 <constraint firstItem="eJt-Xe-EOj" firstAttribute="centerY" secondItem="23y-7D-vIj" secondAttribute="centerY" constant="1.75" id="xRs-SH-rpa"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="videoPreviewImage" destination="WHV-ii-kGu" id="O29-dT-sYi"/>
+                                            <outlet property="videoTitle" destination="eJt-Xe-EOj" id="pd4-Ve-wCg"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -131,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="94" y="107"/>
+            <point key="canvasLocation" x="340" y="107"/>
         </scene>
         <!--VideoVC-->
         <scene sceneID="nds-9S-yM0">
@@ -163,7 +167,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h3p-8v-KHW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="765.60000000000002" y="107.49625187406298"/>
+            <point key="canvasLocation" x="945" y="107"/>
         </scene>
     </scenes>
     <resources>

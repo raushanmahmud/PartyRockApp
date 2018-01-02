@@ -136,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="340" y="107"/>
+            <point key="canvasLocation" x="159" y="107"/>
         </scene>
         <!--VideoVC-->
         <scene sceneID="nds-9S-yM0">
@@ -157,18 +157,33 @@
                                     <constraint firstAttribute="height" constant="216" id="BAo-a6-hWx"/>
                                 </constraints>
                             </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bd6-41-FKU">
+                                <rect key="frame" x="21" y="266" width="333" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="la3-Kx-Yo8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.86567675799999999" green="0.86567675799999999" blue="0.86567675799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="bd6-41-FKU" secondAttribute="trailing" constant="5" id="Vrb-3E-e5F"/>
+                            <constraint firstItem="bd6-41-FKU" firstAttribute="leading" secondItem="6xB-tJ-YSA" secondAttribute="leadingMargin" constant="5" id="Xfc-3F-Z4Y"/>
+                            <constraint firstItem="bd6-41-FKU" firstAttribute="top" secondItem="RM6-ZF-EvS" secondAttribute="bottom" constant="50" id="aFo-3A-2Xq"/>
                             <constraint firstAttribute="trailing" secondItem="RM6-ZF-EvS" secondAttribute="trailing" id="ouB-hT-1ZZ"/>
                             <constraint firstItem="RM6-ZF-EvS" firstAttribute="top" secondItem="6xB-tJ-YSA" secondAttribute="top" id="q8e-hq-Oim"/>
                             <constraint firstItem="RM6-ZF-EvS" firstAttribute="leading" secondItem="6xB-tJ-YSA" secondAttribute="leading" id="v2A-vT-CCK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="titleLbl" destination="bd6-41-FKU" id="jCx-tY-67U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h3p-8v-KHW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="945" y="107"/>
+            <point key="canvasLocation" x="944.79999999999995" y="106.59670164917542"/>
         </scene>
     </scenes>
     <resources>
